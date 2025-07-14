@@ -94,7 +94,7 @@ function App() {
     if (mainCondition.includes('rain')) return 'rainy';
     if (mainCondition.includes('clear')) return 'sunny';
     if (mainCondition.includes('snow')) return 'snowy';
-    return 'default-weather';
+    return 'default-weather'
   };
 
   const themeClass = darkMode ? 'dark-mode' : '';
